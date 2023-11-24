@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Weather App",
+    "imageSrc": "projects/weatherApp.png",
+    "description": "Android weather app using .Net MAUI and weatherApi.",
+    "skills": [".Net MAUI"],
+    "demo": "../../../assets/WeatherApp.apk",
+    "source": "https://github.com/berlinbruno/WeatherApp.git"
+  },
+  {
+    "title": "Go Bird",
+    "imageSrc": "projects/goBird.png",
+    "description": "Simple bird game using Unity Engine.",
+    "skills": ["Unity"],
+    "demo": "../../../assets/GoBird.apk",
+    "source": "https://github.com/berlinbruno/Gobird.git"
+  },
+  {
+    "title": "Meesho",
+    "imageSrc": "projects/inprogress.webp",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
