@@ -1,0 +1,52 @@
+{
+  
+  "frontend":[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/bootstrap.png"
+  }
+],
+  "backend":[
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "skills/csharp.png"
+  }
+],
+"database":[
+  {
+    "title": "Oracle",
+    "imageSrc": "skills/oracle.png"
+  }
+],
+"others":[
+  {
+    "title": "Unity",
+    "imageSrc": "skills/unity.png"
+  },
+  {
+    "title": ".Net MAUI",
+    "imageSrc": "skills/maui.png"
+  },
+  {
+    "title": "Git & Github",
+    "imageSrc": "skills/git.png"
+  }
+  
+]
+}
