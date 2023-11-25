@@ -22,6 +22,7 @@
   justify-content:space-between;
   align-items: center;
   margin-top: 14px;
+  align-items: center;
 }
 
 .innerContent {
@@ -29,7 +30,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0 60px 60px 60px;
-  margin: 20px;
+  margin: 5px;
   justify-content: flex-start;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
@@ -43,7 +44,7 @@
 }
 
 .skills {
-  width: 90%;
+  width: max-content;
   display: flex;
   flex-direction:row;
   flex-wrap: nowrap;
@@ -109,8 +110,13 @@
 
 @media screen and (max-width: 425px) {
 
+  .content{
+    gap: 0;
+  }
+
   .innerContent{
     padding: 0 40px 40px 40px;
+    margin: 5px;
   }
 
   .innerContent h1 {
