@@ -12,62 +12,62 @@ export const Skill = () => {
         <div className={styles.innerContent}>
           <h1>Front End</h1>
           <div className={styles.skills}>
-          {skills.frontend.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+            {skills.frontend.map((skill, id) => {
+              return (
+                <div key={id} className={styles.skill}>
+                  <div className={styles.skillImageContainer}>
+                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                  </div>
+                  <p>{skill.title}</p>
                 </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
-        </div>
-        <div className={styles.innerContent}> 
-        <h1>Back End</h1>
+        <div className={styles.innerContent}>
+          <h1>Back End</h1>
           <div className={styles.skills}>
-          {skills.backend.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+            {skills.backend.map((skill, id) => {
+              return (
+                <div key={id} className={styles.skill}>
+                  <div className={styles.skillImageContainer}>
+                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                  </div>
+                  <p>{skill.title}</p>
                 </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
-        </div>
-        <div className={styles.innerContent}> 
-        <h1>Database</h1>
+        <div className={styles.innerContent}>
+          <h1>Database</h1>
           <div className={styles.skills}>
-          {skills.database.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+            {skills.database.map((skill, id) => {
+              return (
+                <div key={id} className={styles.skill}>
+                  <div className={styles.skillImageContainer}>
+                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                  </div>
+                  <p>{skill.title}</p>
                 </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
-        </div>
-        <div className={styles.innerContent}> 
-        <h1>Others</h1>
+        <div className={styles.innerContent}>
+          <h1>Others</h1>
           <div className={styles.skills}>
-          {skills.others.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+            {skills.others.map((skill, id) => {
+              return (
+                <div key={id} className={styles.skill}>
+                  <div className={styles.skillImageContainer}>
+                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                  </div>
+                  <p>{skill.title}</p>
                 </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>
