@@ -23,10 +23,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 20px;
 }
 
 .aboutImage {
-  border-radius: 50px;
+  border-radius: 15px;
   width: 35%;
 }
 
@@ -88,6 +89,10 @@
 
   .aboutImage {
     display: none;
+  }
+
+  .aboutItem:hover {
+    background-size: 0 100%;
   }
 
   .aboutItems {
