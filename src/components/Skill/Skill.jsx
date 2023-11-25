@@ -40,7 +40,7 @@ export const Skill = () => {
         </div>
         </div>
         <div className={styles.innerContent}> 
-        <h1>Back End</h1>
+        <h1>Database</h1>
           <div className={styles.skills}>
           {skills.database.map((skill, id) => {
             return (
