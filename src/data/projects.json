@@ -4,7 +4,7 @@
     "imageSrc": "projects/weatherApp.png",
     "description": "Android weather app using .Net MAUI and weatherApi.",
     "skills": [".Net MAUI"],
-    "demo": "../../../assets/WeatherApp.apk",
+    "demo": "../assets/WeatherApp.apk",
     "source": "https://github.com/berlinbruno/WeatherApp.git"
   },
   {
