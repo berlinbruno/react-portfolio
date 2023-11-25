@@ -5,10 +5,12 @@ import {Skill} from "./components/Skill/Skill"
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import {Particlebackground} from "./components/Particles/Particlebackground";
 
 function App() {
   return (
     <div className={styles.App}>
+      <Particlebackground/>
       <Navbar />
       <Hero />
       <About />

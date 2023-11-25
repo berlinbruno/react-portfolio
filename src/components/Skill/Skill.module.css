@@ -5,6 +5,7 @@
   margin-top: 79px;
   margin-left: 10%;
   margin-right: 10%;
+  position: relative;
 }
 
 .title {
@@ -81,6 +82,9 @@
 
 @media screen and (max-width: 1440px) {
 
+.content{
+  justify-content: center;
+}
 
 .skillImageContainer{
   width: 100px;
