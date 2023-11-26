@@ -107,7 +107,7 @@
   }
 
   .innerContent h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .skills {
@@ -127,7 +127,7 @@
   }
 
   .skill p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -139,10 +139,6 @@
   .innerContent {
     padding: 0 10px 10px 10px;
     margin: 5px;
-  }
-
-  .innerContent h1 {
-    font-size: 15px;
   }
 
   .skillImageContainer {
