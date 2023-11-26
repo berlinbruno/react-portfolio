@@ -7,7 +7,7 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 350px;
   min-height: 700px;
 }
 
@@ -62,4 +62,17 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+}
+
+@media screen and (max-width: 830px) {
+  .container{
+    min-height: min-content;
+    max-width: 300px;
+  }
+
+  .link{
+    font-size: 25px;
+    padding-top: 5px;
+  }
+
 }
