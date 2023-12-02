@@ -16,11 +16,11 @@
     "source": "https://github.com/berlinbruno/Gobird.git"
   },
   {
-    "title": "Meesho",
-    "imageSrc": "projects/inprogress.webp",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "PostIt",
+    "imageSrc": "projects/postit.png",
+    "description": "Image posting socialmedia app",
+    "skills": ["React", "Sanity", "TailWind"],
+    "demo": "https://postitmedia.netlify.app/",
+    "source": "https://github.com/berlinbruno/PostIt.git"
   }
 ]
