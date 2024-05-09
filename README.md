@@ -23,3 +23,7 @@ This project is a dynamic React portfolio website featuring sections for Hero, A
 3. **Customize Content:** Update content and details in the respective sections to personalize your portfolio.
 4. **Run the Development Server:** Run `npm start` to start the development server and view your portfolio in the browser.
 5. **Deploy:** Deploy the portfolio to your preferred hosting platform to share it with the world.
+
+## License
+
+Feel free to use this project as you wish. No restrictions apply.
